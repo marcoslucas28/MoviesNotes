@@ -3,6 +3,7 @@ module.exports = {
     name: "server",
     script: "./src/server.js",
     watch: true,
+    exec_mode: "fork",
     instances: 1,
     env: {
       NODE_ENV: "development",
